@@ -50,6 +50,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `json-rpc-engine@5.3.0`
   - `eth-json-rpc-middleware@6.0.0`
 
+## [3.0.1] - 2018-10-08
+### Changes
+- **BREAKING**: `BaseFilter` now extends `SafeEventEmitter` (c583ba9d9410ca7c861282b0a122212b7c22ba47)
+
+## [2.0.0] - 2018-05-22
+### Changes
+- **BREAKING**: expect EthBlockTracker@4 (062fd0849631a9862780c0591a3987bcadfe880f)
+
 [Unreleased]: https://github.com/MetaMask/eth-json-rpc-filters/compare/v6.0.1...HEAD
 [6.0.1]: https://github.com/MetaMask/eth-json-rpc-filters/compare/v6.0.0...v6.0.1
 [6.0.0]: https://github.com/MetaMask/eth-json-rpc-filters/compare/v5.1.0...v6.0.0
