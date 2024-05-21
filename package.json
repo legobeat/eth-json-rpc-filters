@@ -25,7 +25,7 @@
     "pify": "^5.0.0"
   },
   "devDependencies": {
-    "@lavamoat/allow-scripts": "^2.5.1",
+    "@lavamoat/allow-scripts": "^3.0.4",
     "@metamask/auto-changelog": "^3.3.0",
     "@metamask/eth-json-rpc-middleware": "^12.0.0",
     "eth-block-tracker": "^8.0.0",
@@ -54,5 +54,6 @@
       "ganache-cli>ethereumjs-util>ethereum-cryptography>keccak": false,
       "ganache-cli>ethereumjs-util>ethereum-cryptography>secp256k1": false
     }
-  }
+  },
+  "packageManager": "yarn@4.2.1+sha256.15ce76682a8cd2090257b883cd69c637925b29573f9573e8403ec227d5ab6815"
 }
